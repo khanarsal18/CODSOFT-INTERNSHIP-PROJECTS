@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Cursive', sans-serif;
+    color: #6c63ff;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f4f4f9;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #333;
+}
+
+.hero h1 span {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a svg {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.cta-buttons {
+    margin-top: 30px;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #6c63ff;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.btn-secondary {
+    background-color: #ff4081;
+    color: #fff;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 500px;
+    
+}
